@@ -1,0 +1,8 @@
+.omnisearch-container{
+    /* TODO: Change the styles laer into a dockable sidebar */
+    position: absolute;
+    right: 0;
+    top: 150px;
+    max-width: 400px;
+    margin: 5px 20px;
+}

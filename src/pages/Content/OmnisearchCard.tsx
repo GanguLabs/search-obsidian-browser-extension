@@ -42,6 +42,7 @@ export function OmnisearchCard(props: Props) {
       );
 
       const json = await res.json();
+      console.log("Obsidian search results", {json})
       setOmnisearchResults(json);
     }
     OmnisearchQuery(props);

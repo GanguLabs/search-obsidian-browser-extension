@@ -5,11 +5,14 @@ import { OmnisearchCard } from './OmnisearchCard';
 import { createRoot } from 'react-dom/client';
 import React from 'react';
 
+import './style.css'
+
 const siteRegex = new RegExp(Object.keys(config).join('|'));
 const siteName = window.location.hostname.match(siteRegex)![0];
 const siteConfig = config[siteName];
 
 async function mount(query: string, siteConfig: SearchEngine) {
+  // const googleResultsDiv = document.getElementById("search")?.parentElement;
   const container = document.createElement('div');
   container.className = 'omnisearch-container';
 

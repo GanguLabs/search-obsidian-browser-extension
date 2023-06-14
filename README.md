@@ -13,7 +13,7 @@ You need to install both this browser extension and a plugin in Obsidian to take
 ## TODO
 - [ ] include bing searches
 - [ ] render results in a collapsible drop-down
-- [ ] display the count of results - helpful if there are not results
+- [ ] display the count of results - helpful if there are no results
 - [ ] use remark-grm to render makrdown
 - [ ] Transfer to [esbuild](https://github.com/Debdut/browser-extension) from webpack
 
